@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js"></script>
+    <title>Inova IFPI 2024</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <section class="duvidas">
+            <h1>DÚVIDAS FREQUENTES</h1>
+
+            <div class="duvida" onmousedown="toggleDiv('duvida1', 'seta1');">
+                <div class="duvida-pergunta">
+                    <h2>Como faço para me inscrever no evento?</h2>
+                    <img id="seta1" src="../IMAGENS/arrow_forward_ios_down.png" alt="">
+                </div>
+                <div id="duvida1"class="duvida-resposta">
+                    <h3>...</h3>
+                </div>
+            </div>
+
+            <div class="duvida" onmousedown="toggleDiv('duvida2', 'seta2');">
+                <div class="duvida-pergunta">
+                    <h2>Como faço para me inscrever só nos minicursos?</h2>
+                    <img id="seta2" src="../IMAGENS/arrow_forward_ios_down.png" alt="">
+                </div>
+                <div id="duvida2"class="duvida-resposta">
+                    <h3>Ao entrar no link do formulário de inscrição, após preencher seu dados deve-se desconsiderar as opções de paletras e escolher apenas os minicursos que desejar, vale ainda ressaltar que não se deve realizar a inscrição em minicursos que ocorrerão em um mesmo horário.</h3>
+                </div>
+            </div>
+
+            <div class="duvida" onmousedown="toggleDiv('duvida3', 'seta3');">
+                <div class="duvida-pergunta">
+                    <h2>O evento terá certificado?</h2>
+                    <img id="seta3" src="../IMAGENS/arrow_forward_ios_down.png" alt="">
+                </div>
+                <div id="duvida3"class="duvida-resposta">
+                    <h3>...</h3>
+                </div>
+            </div>
+
+            <div class="duvida" onmousedown="toggleDiv('duvida4', 'seta4');">
+                <div class="duvida-pergunta">
+                    <h2>Como faço para patrocinar o evento?</h2>
+                    <img id="seta4" src="../IMAGENS/arrow_forward_ios_down.png" alt="">
+                </div>
+                <div id="duvida4"class="duvida-resposta">
+                    <h3>...</h3>
+                </div>
+            </div>
+
+        </section>
+    </div>
+        
+    <footer>
+        <span>© 2024 Inova IFPI | Alguns direitos reservados</span>
+    </footer>
+
+
+    
+    <script>
+        function toggleDiv(divid, setaid){
+          if(document.getElementById(divid).style.display == 'none'){
+            document.getElementById(divid).style.display = 'block';
+            document.getElementById(setaid).setAttribute('src', '../IMAGENS/arrow_forward_ios_up.png')
+          }else{
+            document.getElementById(divid).style.display = 'none';
+            document.getElementById(setaid).setAttribute('src', '../IMAGENS/arrow_forward_ios_down.png')
+
+        }
+        }
+      </script>
+</body>
+</html>
