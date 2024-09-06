@@ -28,8 +28,8 @@
 }
 
 .nav-open-btn i { 
-  width: 40px; 
-  padding-left: 70px;
+  width: 50px; 
+  padding-left: 170px;
   padding-top: 8px;
 }
 
@@ -46,6 +46,7 @@
         padding: 0;
         overflow: hidden;
         background-color: #EFF4F7;
+        width: 100%;
       }
       
       li {
@@ -69,8 +70,8 @@
       }
 
       img{
-        height: 40px;
-        padding-left: 10px;
+        height: 50px;
+        padding-left: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-right: 30px;
@@ -80,8 +81,8 @@
 
 
 .folder{
-  width: 400px;  
-  margin-left: 30px;
+  width: 100%;  
+  margin-left: 50px;
   margin-top: 20px;
 
   button{
@@ -90,7 +91,7 @@
       background-color: #3249B9;
       color: #EFF4F7;
       border-radius: 10px;
-      font-size: 12 px;
+      font-size: 18px;
       font-weight: 600;
       padding: 1rem 0.75rem;
       cursor: pointer;
@@ -113,7 +114,7 @@
 }
 
 .folder h2{
-  font-size: 26px;
+  font-size: 40px;
   font-weight: 500;
   color: #3249B9;
 }
@@ -151,7 +152,7 @@
 
 .container{
   margin: 0 auto;
-  max-width:  1440px;
+  max-width:  100%;
   display: grid;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -162,6 +163,7 @@
     overflow: hidden;
     width: 100%;
     margin-top: 80px;
+    margin-left: 30px;
 
   
 
@@ -169,19 +171,20 @@
       padding: 24px;
       display: flex;
       flex-direction: column;
+      width: 100%;
       
   }
 
   h2 {
       margin-top: 0;
-      font-size: 18px;
+      font-size: 40px;
       color: #01C0A1;
       text-align: justify;
   }
 
   h1{
     margin-top: -10px;
-    font-size: 25px;
+    font-size: 30px;
     color: #1431BC;
     text-align: justify;
   }
@@ -190,11 +193,11 @@
       margin-top: -12px;
       color: #3249B9;
       line-height: 1.6;
-      font-size: 15px;
+      font-size: 22px;
   }
  #linha{
     margin-top: -50px;
-    font-size: 32px;
+    font-size: 38px;
     color: #01C0A1;
     font-weight: 900;
     letter-spacing: -1px;
@@ -208,7 +211,7 @@
 
 #desc-timer{
   color: #EFF4F7;
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -223,14 +226,14 @@
   display: flex;
   justify-content: center;
   flex-basis: 300px;
-  width: 262px;
+  width: 100%;
   
 }
 
 .launch-time{
   display: flex;
-  flex-basis: 200px;
-  margin-left: 20px;
+  flex-basis: 300px;
+  margin-left: 40px;
   margin-bottom: 10px;
   margin-top: 10px;
 
@@ -241,7 +244,7 @@
 }
 
 .launch-time div p{
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 700;
   color: #EFF4F7;
   margin-bottom: 0px;
@@ -250,14 +253,15 @@
 
 .launch-time div span{
   color: #EFF4F7;
+  font-size: 20px;
 }
 
 
 /*CODIGO DA PAGINA DE PROGRAMACAO*/
 
 #titulo-prog{
-  color: #3249B9;
-  font-size: 25px;
+  color: #1431BC;
+  font-size: 35px;
   flex-direction: column;
   width: 100%;
 }
@@ -267,8 +271,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 20px;
-  width: 90%;
+  margin: 0 50px;
+  width: 100%;
   margin-top: 80px;
   
 }
@@ -276,8 +280,8 @@
 .programacao span{
   background-color: #C6E7E2;
   border-radius: 8px;
-  width: 50px;
-  height: 10px;
+  width: 70px;
+  height: 20px;
   margin-right: 10px;
 }
 
@@ -296,7 +300,7 @@
 
 .programacao h2{
   color: #01C0A1;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .programacao h1{
@@ -324,13 +328,13 @@
   }
 
   h1{
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
 .event-card{
-  margin-left: -8px;
-  width: 420px;
+  margin-left: -40px;
+  width: 100%;
 }
 
 .btn-prx{
@@ -339,13 +343,13 @@
   background-color: #01C0A1;
   color: #EFF4F7;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
-  padding: 0px;
+  padding: 5px ;
   cursor: pointer;
   letter-spacing: -1px;
-  width: 110px;
-  height: 30px;
+  width: 180px;
+  height: 35px;
   margin-top: 20px;
 }
 
@@ -357,12 +361,12 @@
 .card{
   background-color: #EFF4F7;
   border: none;
-  width: 420px;
+  width: 100%;
   border-radius: 8px;
   cursor: pointer;
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .card:hover{
@@ -372,21 +376,21 @@
 }
 
 .icon-card{
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 .txt-card{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
+  width: 88%;
   margin-left: -20px;
-  margin-top: -25px;
+  margin-top: -50px;
 }
 
 .txt-card h2{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   margin-left: 7%;
 }
@@ -398,30 +402,34 @@
   color: #3249B9;
   margin-top: -20px;
   margin-bottom: 5px;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 .card-arrow{
-  width: 20px;
-  height: 20px;
-  margin-left: 200px;
-  margin-top: -50px;
+  width: 30px;
+  height: 30px;
+  padding-left: 250px;
+  margin-top: -70px;
+  align-self:last baseline;
+  
 }
 
 
 body{
   background-color: #EFF4F7;
-  width: 412px;
+  width: 100%;
   justify-content: center;
+  
   align-items: center;
-  margin: 0 20px 0 -10px;
+  margin: 0 ;
+  padding: 0;
 }
 
 /*CSS PALESTRANTES*/
 
 .palestrantes{
-  width: 90%;
-  margin: 100px 20px 0 20px;
+  width: 100%;
+  margin: 100px 0px 0 50px;
 }
 .cards-palestrantes-right{
   display: flex;
@@ -430,7 +438,7 @@ body{
   border: #EFF4F7 1px solid;
   border-radius: 10px;
   margin-top: 20px;
-  width: auto;
+  width: 90%;
   background-color: #fff;
   margin-bottom: 100px;
 }
@@ -464,8 +472,8 @@ body{
 }
 
 .img-card-palestrante-left img{
-  height: 250px;
-  width: 250px;
+  height: 280px;
+  width: 280px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -473,29 +481,27 @@ body{
 .img-card-palestrante-right{
   height: auto;
   width: auto;
-  min-width: 80px;
-  min-height: 80px;
   padding-right: 30px;
 }
 
 .img-card-palestrante-right img{
-  height: 200px;
-  width: 200px;
+  height: 280px;
+  width: 280px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin-left: 10px ;
+  margin-left: 20px ;
 }
 
 .txt-palestrante h1{
   color: #1431BC;
-  font-size: 17px;
+  font-size: 30px;
   margin-top: 0%;
   margin-bottom: 0%;
 }
 
 .txt-palestrante h2{
   color: #01C0A1;
-  font-size: 13px;
+  font-size: 20px;
   margin-bottom: 0%;
 }
 
@@ -525,14 +531,14 @@ body{
   background-color: #01C0A1;
   border-radius: 10px;
   padding: 5px 8px 5px 8px;
-  font-size: 11px;
+  font-size: 18px;
   color: #EFF4F7;
   margin-right: 10px;
 }
 
 .desc-palestrante{
   color: #3249B9;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 0%;
 }
 
@@ -541,7 +547,7 @@ body{
   color: #EFF4F7;
   margin-right: 10px;
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 30px;
   text-decoration: none;
   padding: 3px 0px 3px 7px;
 }
@@ -575,7 +581,7 @@ body{
 
 .titulo-palestrante{
   color: #1431BC;
-  font-size: 28px;
+  font-size: 40px;
   margin-bottom: 50px;
 }
 
@@ -583,13 +589,15 @@ body{
 /* ÁREA DE MINICURSOS */
 
 .minicursos{
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 50px;
 }
 
 .minicursos > h1{
   color: #3249B9;
-  font-size: 2.625rem;
+  font-size: 28px;
+  margin-left: 30px;
+  
 }
 
 .minicursos-row{
@@ -602,12 +610,12 @@ body{
 .minicurso{
   background-color: #fff;
   border-radius: 8px;
-  max-width: 320px;
+  width: 90%;
   margin-top: 50px;
 }
 .minicurso img{
-  width: 230px;
-  height: 230px;
+  width: 300px;
+  height: 300px;
 }
 
 
@@ -616,15 +624,17 @@ body{
 }
 
 .minicurso-body > h2{
-  font-size: 1.75rem;
+  font-size: 30px;
 }
 
 .minicurso-body > h2, .minicurso-body > p{
   color: #3249B9;
+  font-size: 22px;
 }
 
 .minicurso-data{
   color: #01C0A1;
+  font-size: 20px;
 }
 
 .minicurso-palestrante{
@@ -633,6 +643,7 @@ body{
   background-color: #01C0A1;
   display: inline;
   border-radius: 12px;
+  font-size: 20px;
 
 }
 /* ÁREA DE PATROCÍNIO*/
@@ -720,14 +731,14 @@ body{
 /* ÁREA DE DÚVIDAS*/
 
 .duvidas{
-  width: 50%;
+  width: 90%;
   margin: 0 20px;
 }
 
 .duvidas > h1{
   text-align: center;
   color: #3249B9;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .duvida{
@@ -739,7 +750,7 @@ body{
 
 .duvida-pergunta > h2{
   color: #01C0A1;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .duvida-pergunta > img{
@@ -763,7 +774,7 @@ body{
 }
 
 .duvida-resposta h3{
-  font-size: 15px;
+  font-size: 20px;
 }
 
 footer{
@@ -771,6 +782,8 @@ footer{
   color: #fff;
   background-color: #3249B9;
   padding: 12px;
+  text-align: center;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 15px;
+  width: 100%;
 }
