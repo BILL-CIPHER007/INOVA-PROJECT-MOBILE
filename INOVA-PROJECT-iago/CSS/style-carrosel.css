@@ -1,0 +1,145 @@
+body{
+    background-size: cover;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.hi-slide{
+    position: relative;
+    width: 354px;
+    height: 192px;
+    border-radius: 50px;
+    margin: 115px auto 0;
+}
+
+
+.hi-slide{
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px ;
+        border-radius: 50px;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        background-color: transparent;
+        color: black;
+        transition: all 0.7s ;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+
+.hi-slide > ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.hi-slide > ul > li{
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    top: 147px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: #333;
+}
+
+.hi-slide > ul > li > img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+
+
+
+
+.gallery{
+    width: 100%;
+  }
+  
+  .gallery-container{
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+  }
+  
+  .gallery-item{
+    height: 200px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3 ease-in-out;
+    width: 330px;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+  }
+  
+  .gallery-item1{
+    left: 15%;
+    opacity: .4;
+    transform: translateX(-50%);
+  }
+  
+  .gallery-item2, .gallery-item4{
+    height: 250px;
+    opacity:  0.8;
+    width: 380px;
+    z-index: 1;
+  }
+  
+  .gallery-item2{
+    left: 30%;
+    transform: translateX(-50%);
+  }
+  
+  .gallery-item3{
+    box-shadow: -2px 5px 33px 6px rbga(0, 0, 0, 0.35);
+    height: 300px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .gallery-item4{
+    left: 75%;
+    transform: translateX(-50%);
+  }
+  
+  .gallery-item5 {
+    left: 85%;
+    opacity: .4;
+    transform: translateX(-50%);
+  }
+  .gallery-controls{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    height: 100px;
+  }
+
+  .gallery-controls button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 50px;
+    padding: 0 12px;
+    text-transform: capitalize; 
+  }
+
+  
